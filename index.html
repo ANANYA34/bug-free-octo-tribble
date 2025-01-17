@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+   <head>
+         <title>Ananya Ved - Portfolio</title>
+         <style>
+         body {
+           background-color: #192c3b;
+           font-family:'Times New Roman', Times, serif;
+           margin: 0;
+           padding: 0;
+                    }
+  nav {
+    background-color: #cff4f2;
+    color: rgb(26, 14, 14);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: rgb(50, 23, 23);
+    text-decoration: none;
+    font-size: 16px;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  .hero {
+    text-align: center;
+    background: linear-gradient(to right, #94efa7, #0056b3);
+    color: rgb(59, 32, 32);
+    padding: 50px 20px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .hero .button {
+    background-color: #ffdd57;
+    color: #333;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  .hero .button:hover {
+    background-color: #ffc107;
+  }
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(248, 243, 243);
+    box-shadow: 0 4px 8px rgba(75, 59, 59, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .container p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .portfolio .project {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .portfolio .project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills .skill {
+    width: 90%;
+    margin: 10px 0;
+  }
+  .skills .progress {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .skills .progress-bar {
+    height: 20px;
+    background-color: #b9d1e9;
+    width: 0;
+    animation: progress 1s forwards;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a1edd6;
+    color: rgb(15, 12, 12);
+  }
+  footer a {
+    color: #1d1c1a;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <h1>Ananya Ved</h1>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="https://drive.google.com/drive/u/5/folders/1hUSqefBYItB-Nf91m-m87R2mpHw88g9E">Resume</a></li>
+      
+    </ul>
+  </nav>
+  <section class="hero">
+    <h1>Welcome to My Website</h1>
+    <p>My name is Ananya Ved, a Self-motivated, and dynamic professional seeking an Analyst role to contribute to organizational success through strategic thinking, problem-solving and collaboration.</p>
+    <a href="https://docs.google.com/document/d/1kdo5z33tw9O8yN4iaT_5f96yahY0J23bKtxd5fcg7Hc/edit?usp=sharing" class="button">See My Work</a>
+  </section>
+  <div class="container" id="about">
+    <img src="Ananya.jpg" alt="Ananya Ved">
+    <h2>About Me</h2>
+    <p>I come from the historic city of Ayodhya. 
+            I graduated from Christ University, Lavasa, with a BBA degree specializing in Business Analytics.
+            My hobbies include playing sports like Cricket, Volleyball and Badminton, travelling to different places, make new connections, and read about new technologies. 
+            For more information you can refer to my Resume.</p>
+  </div>
+  <div class="container" id="portfolio">
+    <h2>More Information</h2>
+    <div class="portfolio">
+      <div class="project">
+        <img src="Redbull.png" alt="Project 1">
+        <h3>Red Bull Analysis</h3>
+        <a href="https://www.linkedin.com/posts/ananya-ved-36770b154_redbull-activity-7189116726427471873-b2Sb?utm_source=share&utm_medium=member_desktop">Click Here</a>
+      </div>
+      <div class="project">
+        <img src="Dashboard.png" alt="Project 2">
+        <h3>Dashboards</h3>
+        <a href="https://www.linkedin.com/posts/ananya-ved-36770b154_visualization-powerbi-tableau-activity-7160990297856917504-FuQ0?utm_source=share&utm_medium=member_desktop">Click Here</a>
+      </div>
+      <div class="project">
+        <img src="CAPS LOR.jpg" alt="Project 3">
+        <h3>Class Ambassador</h3>
+        <a href="https://www.linkedin.com/posts/ananya-ved-36770b154_greetings-everyone-i-just-received-activity-7194342303954591746-a4vi?utm_source=share&utm_medium=member_desktop">Click Here</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <p>Power BI</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 80%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>MS Excel</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 83%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>SQL(Basics)</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 50%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+        <p>Communication</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 95%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Leadership</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 100%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Time Management</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 100%;"></div>
+        </div>
+      </div><p>More Skills-><a href="https://drive.google.com/drive/u/5/folders/1hUSqefBYItB-Nf91m-m87R2mpHw88g9E">Resume</a></p>
+  </div>
+  
+  <footer>
+    <p>Mobile no.: 9156559097   Email: ananyaved764@gmail.com</p>
+    <a href="https://www.linkedin.com/in/ananya-ved-36770b154/" target="_blank">LinkedIn</a> |
+    <a href="https://www.instagram.com/ananya.ved/" target="_blank">Instagram</a> |
+    <a href="https://drive.google.com/drive/u/5/folders/1hUSqefBYItB-Nf91m-m87R2mpHw88g9E" target="_blank">Resume</a>
+  </footer>
+</body>
+</html>
+
